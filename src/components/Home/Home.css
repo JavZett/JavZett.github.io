@@ -1,0 +1,299 @@
+.banner-cetis-30,
+.info-cetis {
+  align-items: center;
+  display: flex;
+  width: 98%;
+  /* justify-content: space-between; */
+}
+
+section {
+  margin: 30px auto 60px auto;
+  padding: 60px 20px;
+  height: calc(100vh - 120px);
+}
+
+.banner-img,
+.educacion-img {
+  cursor: pointer;
+  padding: 20px;
+  transition: all ease 0.3s;
+  width: 60%;
+}
+
+.banner-img:hover,
+.educacion-img:hover {
+  transform: scale(1.008);
+}
+
+.cetis-banner {
+  width: 95%;
+}
+
+.banner-titulo,
+.educacion-cetis {
+  font-size: 20px;
+  padding: 0px 50px;
+  width: 40%;
+}
+
+.banner-titulo h3,
+.educacion-cetis h3 {
+  color: #640431;
+  font-size: 2.5em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.banner-titulo p,
+.educacion-cetis p {
+  color: #1b1b1b;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 20px 0;
+  text-shadow: 2px 2px 3px #1b1b1b60;
+}
+
+.info-cetis {
+  background-color: #f7f7f7e3;
+  box-shadow: 1px 1px 10px #00000030;
+}
+
+.cetis-facebook {
+  position: fixed;
+  top: 13%;
+  right: 0.7em;
+  margin-left: 0.7em;
+  font-size: 2.2em;
+  cursor: pointer;
+  color: #000000;
+  z-index: 200;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+
+.cetis-facebook:hover {
+  color: #0575e7;
+}
+
+.cetis-mapa-direccion {
+  height: 85vh;
+  width: 100%;
+}
+
+.cetis-mapa-direccion h3 {
+  margin: 20px 0;
+  font-size: 2.5em;
+  color: #640431;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.mapa {
+  width: 100%;
+  height: 80vh;
+}
+
+.mapa-mapa-cetis {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  section {
+    margin: 30px auto 100px auto;
+    height: calc(80vh - 120px);
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  section {
+    margin: 30px auto 100px auto;
+    height: calc(80vh - 120px);
+  }
+
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 3.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.8em;
+  }
+
+  .cetis-facebook {
+    font-size: 3.2em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .banner-img,
+  .educacion-img {
+    padding: 30px;
+    width: 50%;
+  }
+
+  .cetis-banner {
+    width: 95%;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    font-size: 25px;
+  }
+
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 3.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  section {
+    margin: 30px auto 80px auto;
+    height: calc(80vh - 120px);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  section {
+    margin: 30px auto 60px auto;
+    height: calc(70vh - 120px);
+  }
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 2.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.3em;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    font-size: 17px;
+    padding: 0px 40px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    margin: 20px auto 50px auto;
+    height: calc(57vh - 120px);
+  }
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 2.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.3em;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    font-size: 16px;
+    padding: 0px 40px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 2.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.4em;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    font-size: 14px;
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  section {
+    margin: 20px auto 20px auto;
+    height: calc(100vh - 100px);
+  }
+  .banner-cetis-30,
+  .info-cetis {
+    flex-direction: column;
+    width: 98%;
+  }
+
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 2.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.4em;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    font-size: 14px;
+    padding: 0px 40px;
+  }
+  .banner-img,
+  .educacion-img {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 20px;
+    width: 100%;
+  }
+  /* .cetis-facebook {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    height: calc(80vh - 100px);
+  }
+  .banner-titulo h3,
+  .educacion-cetis h3 {
+    font-size: 2.5em;
+  }
+
+  .banner-titulo p,
+  .educacion-cetis p {
+    font-size: 1.3em;
+  }
+  .banner-img,
+  .educacion-img {
+    padding: 12px;
+    width: 100%;
+  }
+
+  .banner-titulo,
+  .educacion-cetis {
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+}

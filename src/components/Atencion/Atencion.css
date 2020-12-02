@@ -1,0 +1,147 @@
+.atencion-cetis {
+  margin: 2em auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+.atencion-cetis h2 {
+  font-size: 3em;
+  text-shadow: 5px 5px 8px #00000030;
+}
+
+.atencion-cetis p {
+  font-size: 1.35em;
+  margin-top: 0.3em;
+}
+
+.atencion-cetis__info {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  box-shadow: 2px 8px 8px #00000030;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  width: 95%;
+}
+
+.docentes {
+  width: 100%;
+  min-width: 500px;
+}
+
+.docentes h3 {
+  color: #333333;
+  font-size: 1.5em;
+  text-shadow: 5px 5px 8px #00000030;
+}
+
+.docentes-tabla {
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #22222230;
+  border-spacing: 0;
+  margin: 1.5em auto;
+  width: 90%;
+}
+
+.docentes-tabla thead {
+  background: #640431;
+}
+
+.docentes-tabla th {
+  border-style: none;
+  color: #ebebeb;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 15px;
+}
+
+.docentes-tabla .orilla-iz {
+  border-radius: 5px 0 0 0;
+}
+
+.docentes-tabla .orilla-de {
+  border-radius: 0 5px 0 0;
+}
+
+.docentes-tabla tbody {
+  margin: 5px 0;
+}
+
+.docentes-tabla tbody tr {
+  background: #ebebeb;
+}
+
+.docentes-tabla tbody td {
+  border-bottom: 1px solid #000;
+  border-style: none;
+  color: #222222;
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 15px;
+  text-align: center;
+}
+
+.atencion-quejas {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  box-shadow: 2px 8px 8px #00000030;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  width: 100%;
+}
+
+.atencion-quejas h3 {
+  color: #222222;
+  font-size: 1.5em;
+  text-shadow: 5px 5px 8px #00000030;
+}
+
+.atencion-quejas p {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+}
+
+.docentes-cetis-scroll {
+  overflow-x: scroll;
+  margin-bottom: 1em;
+}
+.docentes-cetis-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.docentes-cetis-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.docentes-cetis-scroll::-webkit-scrollbar-thumb {
+  background: #640431;
+}
+
+@media screen and (max-width: 768px) {
+  .docentes-tabla {
+    width: 95%;
+    margin: 1em auto;
+  }
+  .atencion-cetis {
+    width: 90%;
+  }
+  .atencion-cetis__info {
+    font-size: 15px;
+  }
+  .docentes-cetis-scroll {
+    width: 80%;
+  }
+  .docentes-cetis-scroll::-webkit-scrollbar {
+    height: 3px;
+  }
+  .docente-cetis-materias {
+    display: none;
+  }
+  .docentes-tabla tbody td {
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  .docentes-tabla th {
+    font-size: 1em;
+    padding: 10px;
+  }
+}
