@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFetch } from '../../hooks/useFetch';
+import { Loading } from '../LoadingComponent/Loading';
 
 export const Docentes = () => {
   const { loading, data } = useFetch(
@@ -27,7 +28,9 @@ export const Docentes = () => {
           <tbody>
             {loading && (
               <tr>
-                <td colSpan="3">Cargando...</td>
+                <td colSpan="3">
+                  <Loading />
+                </td>
               </tr>
             )}
             {!loading &&

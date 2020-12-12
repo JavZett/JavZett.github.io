@@ -1,12 +1,16 @@
 import React from 'react';
-import { FaFacebook } from 'react-icons/fa';
 import ReactTooltip from 'react-tooltip';
-import './Home.css';
+import { FaFacebook } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 import { Mapa } from './Mapa';
+import './Home.css';
 
 export const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>CETIS 30</title>
+      </Helmet>
       <a
         href="https://www.facebook.com/dgeticetis030"
         data-tip

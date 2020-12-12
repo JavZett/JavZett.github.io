@@ -1,0 +1,45 @@
+.cls-1 {
+  animation-name: cargando_img;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cargango__ {
+  text-align: center;
+  width: 100%;
+}
+
+#Capa_1 {
+  display: block;
+  margin: 1.3em auto;
+  width: 20%;
+}
+
+#cargando__txt {
+  font-size: 1.3em;
+  font-weight: bold;
+  animation-name: cargando__txt;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cargando_img {
+  from {
+    fill: #cccccc;
+  }
+  to {
+    fill: #640431;
+  }
+}
+
+@keyframes cargando__txt {
+  from {
+    color: #cccccc;
+  }
+  to {
+    color: #640431;
+    letter-spacing: 2px;
+  }
+}

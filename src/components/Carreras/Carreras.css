@@ -84,6 +84,10 @@
   font-size: 1.1em;
 }
 
+.cargando__grid {
+  grid-column: 1/4;
+}
+
 @media screen and (max-width: 1050px) {
   .carreras-cetis-30__grid {
     grid-template-columns: 1fr 1fr;

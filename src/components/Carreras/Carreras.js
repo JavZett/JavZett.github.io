@@ -1,7 +1,9 @@
 import React from 'react';
 import { useFetch } from '../../hooks/useFetch';
+import { Loading } from '../LoadingComponent/Loading';
 import './Carreras.css';
 import 'animate.css';
+import { Helmet } from 'react-helmet';
 import { Imagen } from './Imagen';
 
 export const Carreras = () => {
@@ -13,6 +15,9 @@ export const Carreras = () => {
 
   return (
     <div className="carreras-cetis-30 ">
+      <Helmet>
+        <title>CETIS 30 | Carreras</title>
+      </Helmet>
       <div className="carreras-cetis-30__header animate__animated  animate__fadeIn ">
         <img src="/carreras.svg" alt="Carreras Cetis 30 " />
         <div className="carreras-cetis-30__header-text">
@@ -25,7 +30,7 @@ export const Carreras = () => {
         </div>
       </div>
       <div className="carreras-cetis-30__grid animate__animated  animate__fadeIn">
-        {loading && <div className="cargando">Cargando</div>}
+        {loading && <Loading className="cargando__grid" />}
         {!loading &&
           carreras.map((carrera, index) => (
             <div className="carrera" key={carrera._id}>

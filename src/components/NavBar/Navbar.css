@@ -50,7 +50,6 @@
 
 .navbar-links {
   display: inline-flex;
-  /* display: flex;*/
   align-items: center;
   font-size: 17px;
   list-style: none;

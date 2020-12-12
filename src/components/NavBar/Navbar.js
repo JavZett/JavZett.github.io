@@ -61,23 +61,19 @@ export const Navbar = () => {
             className="navbar-link"
             target="_blank"
             rel="noreferrer"
-            data-tip
-            data-for="info-becas"
           >
             Becas
           </a>
         </li>
         <li>
-          <a
+          <NavLink
+            exact={true}
+            activeClassName="navbar-link-active"
+            to="/iniciar-sesion"
             className="navbar-link"
-            href="https://sistema2019.net/cetis030"
-            target="_blank"
-            rel="noreferrer"
-            data-tip
-            data-for="info-inicio-secion"
           >
-            Inicia seción
-          </a>
+            Iniciar sesión
+          </NavLink>
         </li>
       </ul>
 
